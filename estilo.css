@@ -1,0 +1,60 @@
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+}
+
+p {
+    margin-top: 0;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    margin: 20px 0 20px;
+}
+
+.inputbotao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+    height: 20px;
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 5px;
+    background-color: rgb(214, 214, 214)
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    background-color: rgb(41, 41, 41);
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
